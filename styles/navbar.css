@@ -1,0 +1,136 @@
+nav {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+/* TO HIDE ON LARGE */
+.menu-button,
+.close_icon {
+  display: none;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+nav a {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.navbar-btn {
+  border-radius: 10px;
+  background: #FF5480;
+  border: 1px solid #FF5480;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+
+/* MEDIA QUERIES TO SHOW MENU BUTTON AND CLOSE ICON ON SMALL SCREENS */
+@media (max-width: 991px) {
+  .navbar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-button {
+    display: block;
+    cursor: pointer;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .close_icon {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #FFF;
+  }
+
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+  }
+}
+
+/* MEDIA QUERIES TO SHOW NAVBAR ITEMS ON LARGE SCREENS */
+@media (min-width: 992px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.625rem 5rem;
+  }
+
+  .navbar {
+    display: flex; 
+    align-items: center;
+    gap: 2rem;
+  }
+
+  nav a {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+      
+  nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3.625rem 10rem;
+    }
+
+    .navbar {
+        gap: 5rem;
+      }
+}
+
+/* OVERLAY ANIMATION FOR SMALL SCREENS */
+.slide-from-right {
+    animation-name: slideFromRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes slideFromRight {
+    from {
+      /* Start the animation from the right edge */
+      transform: translateX(100%);
+    }
+  
+    to {
+      /* Slide the overlay to the left */
+      transform: translateX(0);
+    }
+  }

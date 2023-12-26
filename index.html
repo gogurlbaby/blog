@@ -4,10 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="./js/navbar.js" defer></script>
     <title>Blog</title>
 </head>
 <body>
-    <h1 style="text-align: center">HOME PAGES OF BLOGS</h1>
-    <h2>This is a development blog</h2>
+   <!-- NAVBAR-->
+   <header>
+    <nav>
+     <div class="navbar">
+       <div class="navbar-flex">
+        <img src="./images/logo.svg" alt="Logo" class=""logo>
+        <div class="menu-button">
+          <i data-feather="menu" onclick="showOverlay()"></i> 
+        </div>
+       </div>
+       <!-- OVERLAY FOR SMALL SCREENS -->
+         <div id="overlay" class="nav-items-flex">
+          <ul>
+            <li><a href="">Popular</a></li>
+            <li>
+              <a href="">
+                <button type="button" class="navbar-btn">New</button>
+              </a>
+            </li>
+            <li><a href="">Reading Lists</a></li>
+            <li><a href="">Topics</a></li>
+            <li><a href="">Subscribe</a></li>
+          </ul>
+          <div class="close_icon">
+            <i data-feather="x" onclick="hideOverlay()"></i>
+          </div> 
+        </div>
+      </div>
+       <div><i data-feather="search" class="search-icon"></i> </div>
+    </nav>
+   </header>
+
+   <!-- NEW -->
+   <div>
+    <div>BY   TOMAS LAURINAVICIUS   IN   INSPIRATION</div>
+    <div>New</div>
+   </div>
+
+   <!-- READING LISTS -->
+   <div>
+    <div>
+      <h4>Reading Lists</h4>
+      <p>View All</p>
+    </div>
+
+    <div>
+      <div>
+        <img src={ui_design} alt="">
+        <p>UI Design</p>
+      </div>
+      <div>
+        <img src={ux_design} alt="">
+        <p>UX Design</p>
+      </div>
+      <div>
+        <img src={seo} alt="">
+        <p>SEO</p>
+      </div>
+      <div>
+        <img src={popular} alt="">
+        <p>Popular</p>
+      </div>
+      <div>
+        <img src={essentials} alt="">
+        <p>Essentials</p>
+      </div>
+    </div>
+   </div>
+
+   <!-- POPULAR -->
+   <div>
+    <div>
+        <h4>Popular</h4>
+        <p>View All</p>
+      </div>
+
+     <div><h4>BACKGROUND IMAGE AND TEXT</h4></div>
+
+     <div>
+        <div>
+          <h4>title</h4>
+          <p>description</p>
+        </div>
+        <div>
+            <h4>title</h4>
+            <p>description</p>
+          </div>
+          <div>
+            <h4>title</h4>
+            <p>description</p>
+          </div>
+          <div>
+            <h4>title</h4>
+            <p>description</p>
+          </div>
+     </div>
+   </div>
+
+   <!-- RANDOM -->
+   <div>
+    <h4>Random</h4>
+
+    <div>
+      <div>
+        <p>title</p>
+        <p>mini title</p>
+        <p>description</p>
+      </div>
+      <img src={image} alt="">
+    </div>
+   </div>
+
+   <!-- ESSENTIALS -->
+   <div>
+    <div>
+      <h4>Esentials</h4>
+      <p>View All</p>
+    </div>
+
+    <div>
+      <div>
+        <h4>title</h4>
+        <p>description</p>
+      </div>
+      <div>
+        <h4>title</h4>
+        <p>description</p>
+      </div>
+      <div>
+        <h4>title</h4>
+        <p>description</p>
+      </div>
+      <div>
+        <h4>title</h4>
+        <p>description</p>
+      </div>
+    </div>
+
+    <div>
+      <img src={background_image} alt="">
+      <div>
+        <h4>title</h4>
+        <p>description</p>
+        <p>mini description</p>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <img src={image} alt="">
+        <h4>title</h4>
+        <p>description</p>
+        <p>mini description</p>
+      </div>
+      <div>
+        <img src={image} alt="">
+        <h4>title</h4>
+        <p>description</p>
+        <p>mini description</p>
+      </div>
+    </div>
+   </div>
+
+   <!-- FOOTER -->
+  <footer>
+    <div>
+      <img src={logo} alt="">
+
+      <div>
+        <ul>
+          <li><a href="">Vimeo</a></li>
+          <li><a href="">Pinterest</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+        </ul>
+      </div>
+
+      <p>All Rights Reserved 2018 3layers</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
 </body>
 </html>
