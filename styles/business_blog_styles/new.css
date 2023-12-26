@@ -1,0 +1,129 @@
+.new-flex {
+  padding: 4rem 1rem 0;
+}
+
+.new-container {
+  background-image: url("../../images/Business\ Blog/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 2.5rem 2rem 6rem;
+  margin-bottom: 2.5rem;
+}
+
+.new-title {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.1px;
+  margin-bottom: 0.625rem;
+}
+
+.new-mini-title {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 24px; 
+  letter-spacing: -0.175px;
+  margin-bottom: 1.875rem;
+}
+
+.new-paragraph {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.1px;
+}
+
+.new {
+  color: #111210;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.15px;
+  text-align: center;
+}
+
+.new-view-all {
+  color: #9B9B9B;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  display: none;
+}
+
+.date-description-flex {
+  margin: 2rem;
+}
+
+.date {
+  color: #9B9B9B;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.1px;
+  margin-bottom: 0.5rem;
+}
+
+.date-description {
+  color: #111210;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px; 
+  letter-spacing: -0.1px;
+}
+
+.coloured-paragraph {
+  color: #FF5480;
+}
+
+@media (min-width: 992px) {
+  .new-flex {
+    display: flex;
+    padding: 6.75rem 5rem 0;
+  }
+
+  .new-container {
+    padding: 2.5rem 3rem 12rem;
+  }
+
+  .new-title {
+    line-height: 58px; 
+  }
+  
+  .new-mini-title {
+    font-size: 1.75rem;
+    line-height: 46px; 
+  }
+  
+  .new-paragraph {
+    line-height: 32px; 
+  }
+
+  .new-view-all-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  }
+
+  .new-view-all {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .new-flex {
+    padding: 6.75rem 10rem 0;
+  }
+}
+
+@media (min-width: 1500px) {
+    .new-view-all-flex {
+        padding: 0 5rem;
+      }
+  }
+
