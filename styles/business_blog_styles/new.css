@@ -1,40 +1,10 @@
 .new-flex {
-  padding: 4rem 1rem 0;
+  padding: 4rem 0 0;
 }
 
-.new-container {
+.background-image {
   background-image: url("../../images/Business\ Blog/background.svg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 2.5rem 2rem 6rem;
-  margin-bottom: 2.5rem;
-}
-
-.new-title {
-  color: #FFF;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 24px; 
-  letter-spacing: -0.1px;
-  margin-bottom: 0.625rem;
-}
-
-.new-mini-title {
-  color: #FFF;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 24px; 
-  letter-spacing: -0.175px;
-  margin-bottom: 1.875rem;
-}
-
-.new-paragraph {
-  color: #FFF;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 24px; 
-  letter-spacing: -0.1px;
 }
 
 .new {
@@ -76,37 +46,23 @@
   letter-spacing: -0.1px;
 }
 
-.coloured-paragraph {
-  color: #FF5480;
-}
-
 @media (min-width: 992px) {
   .new-flex {
     display: flex;
-    padding: 6.75rem 5rem 0;
-  }
-
-  .new-container {
-    padding: 2.5rem 3rem 12rem;
-  }
-
-  .new-title {
-    line-height: 58px; 
-  }
-  
-  .new-mini-title {
-    font-size: 1.75rem;
-    line-height: 46px; 
-  }
-  
-  .new-paragraph {
-    line-height: 32px; 
-  }
-
-  .new-view-all-flex {
-    display: flex;
-    justify-content: space-between;
+    gap: 2rem;
     align-items: center;
+    padding: 4rem 5rem 0;
+  }
+
+  .new-text-flex {
+    width: 100%;
+  }
+
+  .new {
+    text-align: start;
+  }
+
+  #new-view {
     padding: 0 2rem;
   }
 
@@ -120,10 +76,3 @@
     padding: 6.75rem 10rem 0;
   }
 }
-
-@media (min-width: 1500px) {
-    .new-view-all-flex {
-        padding: 0 5rem;
-      }
-  }
-

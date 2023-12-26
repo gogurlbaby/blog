@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/new.css">
+    <link rel="stylesheet" href="./styles/business_blog_styles/reading_lists.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="./js/navbar.js" defer></script>
     <title>Blog</title>
@@ -45,16 +46,16 @@
 
    <!-- NEW -->
    <div class="new-flex">
-    <div class="new-container">
-     <h4 class="new-title">BY   TOMAS LAURINAVICIUS   IN   INSPIRATION</h4>
-     <h2 class="new-mini-title">How to accept rejection gracefully — and use it to grow</h2>
-     <p class="new-paragraph">
+    <div class="background-image-container background-image">
+     <h4 class="background-image-title">BY   TOMAS LAURINAVICIUS   IN   INSPIRATION</h4>
+     <h2 class="background-image-mini-title">How to accept rejection gracefully — and use it to grow</h2>
+     <p class="background-image-paragraph">
       User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
      </p>
     </div>
 
-    <div>
-      <div class="new-view-all-flex">
+    <div class="new-text-flex">
+      <div id="new-view" class="view-all-flex">
         <h4 class="new">New</h4>
         <p class="new-view-all">View All</p>
       </div>
@@ -66,7 +67,7 @@
         </div>
         <div class="date-description-flex">
           <p class="date">SEP  04  2018</p>
-          <p class="date-description coloured-paragraph">The beginners guide to user research</p>
+          <p id="coloured-paragraph" class="date-description">The beginners guide to user research</p>
         </div>
         <div class="date-description-flex">
           <p class="date">SEP  04  2018</p>
@@ -81,32 +82,32 @@
    </div>
 
    <!-- READING LISTS -->
-   <div>
-    <div>
-      <h4>Reading Lists</h4>
-      <p>View All</p>
+   <div class="reading-lists">
+    <div class="view-all-flex">
+      <h4 class="reading">Reading Lists</h4>
+      <p class="reading-view-all">View All</p>
     </div>
 
-    <div>
-      <div>
-        <img src={ui_design} alt="">
-        <p>UI Design</p>
+    <div class="reading-lists-container">
+      <div class="reading-image-text-flex">
+        <img src="./images/Business Blog/UI_design.svg" alt="ui design image" class="reading-image">
+        <p class="reading-lists-paragraph">UI design</p>
       </div>
-      <div>
-        <img src={ux_design} alt="">
-        <p>UX Design</p>
+      <div class="reading-image-text-flex">
+        <img src="images/Business Blog/UX_design.svg" alt="ux design image" class="reading-image" >
+        <p id="coloured-paragraph" class="reading-lists-paragraph">UX design</p>
       </div>
-      <div>
-        <img src={seo} alt="">
-        <p>SEO</p>
+      <div class="reading-image-text-flex">
+        <img src="images/Business Blog/SEO.svg" alt="seo image" class="reading-image" >
+        <p class="reading-lists-paragraph">SEO</p>
       </div>
-      <div>
-        <img src={popular} alt="">
-        <p>Popular</p>
+      <div class="reading-image-text-flex">
+        <img src="./images/Business Blog/POPULAR.svg" alt="popular image" class="reading-image" >
+        <p class="reading-lists-paragraph">Popular</p>
       </div>
-      <div>
-        <img src={essentials} alt="">
-        <p>Essentials</p>
+      <div class="reading-image-text-flex">
+        <img src="./images/Business Blog/ESSENTIALS.svg" alt="essentials image" class="reading-image" >
+        <p class="reading-lists-paragraph">Essentials</p>
       </div>
     </div>
    </div>

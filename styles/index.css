@@ -17,3 +17,67 @@ li {
 a {
     text-decoration: none;
 }
+
+.background-image-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 2.5rem 2rem 6rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .background-image-title {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.1px;
+    margin-bottom: 0.625rem;
+  }
+  
+  .background-image-mini-title {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 24px; 
+    letter-spacing: -0.175px;
+    margin-bottom: 1.875rem;
+  }
+  
+  .background-image-paragraph {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.1px;
+  }
+
+  #coloured-paragraph {
+    color: #FF5480;
+  }
+  
+
+@media (min-width: 992px) {
+  .view-all-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }  
+
+  .background-image-container {
+    padding-bottom: 10rem;
+    border-radius: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .background-image-mini-title {
+    font-size: 1.75rem;
+    line-height: 46px; 
+  }
+  
+  .background-image-paragraph {
+    line-height: 32px; 
+  }
+
+}
+
