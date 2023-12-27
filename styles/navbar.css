@@ -81,7 +81,6 @@ nav a {
   nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 3.625rem 5rem 0;
   }
 
@@ -108,7 +107,6 @@ nav a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 3.625rem 10rem 0;
     }
 
     .navbar {

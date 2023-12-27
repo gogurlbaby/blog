@@ -2,27 +2,11 @@
   padding: 4rem 0 0;
 }
 
-.background-image {
+.new-background-image {
   background-image: url("../../images/Business\ Blog/background.svg");
   background-size: cover;
-}
-
-.new {
-  color: #111210;
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: -0.15px;
-  text-align: center;
-}
-
-.new-view-all {
-  color: #9B9B9B;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: -0.1px;
-  display: none;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .date-description-flex {
@@ -50,29 +34,25 @@
   .new-flex {
     display: flex;
     gap: 2rem;
-    align-items: center;
     padding: 4rem 5rem 0;
+  }
+
+  .new-background-image {
+    padding-bottom: 10rem;
   }
 
   .new-text-flex {
     width: 100%;
   }
 
-  .new {
-    text-align: start;
-  }
-
   #new-view {
     padding: 0 2rem;
-  }
-
-  .new-view-all {
-    display: block;
   }
 }
 
 @media (min-width: 1200px) {
   .new-flex {
-    padding: 6.75rem 10rem 0;
+    padding-top: 6.25rem;
   }
 }
+
