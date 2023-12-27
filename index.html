@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/new.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/reading_lists.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/popular.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/random.css">
+    <link rel="stylesheet" href="./styles/business_blog_styles/essentials.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="./js/navbar.js" defer></script>
     <title>Blog</title>
@@ -130,22 +132,22 @@
       </p>
      </div>
 
-     <div class="popular-flex">
-        <div class="popular-text">
-          <h4 class="popular-heading">FREELANCING</h4>
-          <p class="popular-paragraph">Affiliate Systems Suck, So We Rolled Our Own</p>
+     <div class="card-flex">
+        <div class="card-text">
+          <h4 class="card-heading">FREELANCING</h4>
+          <p class="card-paragraph">Affiliate Systems Suck, So We Rolled Our Own</p>
         </div>
-        <div class="popular-text">
-            <h4 class="popular-heading">RESOURCE</h4>
-            <p id="coloured-paragraph" class="popular-paragraph">How not to design web forms</p>
+        <div class="card-text">
+            <h4 class="card-heading">RESOURCE</h4>
+            <p id="coloured-paragraph" class="card-paragraph">How not to design web forms</p>
           </div>
-          <div class="popular-text">
-            <h4 class="popular-heading">DESIGN PROCESS</h4>
-            <p class="popular-paragraph">B2B Lead Generation – Tips and Strategies for 2018</p>
+          <div class="card-text">
+            <h4 class="card-heading">DESIGN PROCESS</h4>
+            <p class="card-paragraph">B2B Lead Generation – Tips and Strategies for 2018</p>
           </div>
-          <div class="popular-text">
-            <h4 class="popular-heading">INSPIRATION</h4>
-            <p class="popular-paragraph">8 Best WordPress Ecommerce Plugins</p>
+          <div class="card-text">
+            <h4 class="card-heading">INSPIRATION</h4>
+            <p class="card-paragraph">8 Best WordPress Ecommerce Plugins</p>
           </div>
      </div>
      </div>
@@ -156,10 +158,10 @@
     <h4 class="heading-view">Random</h4>
 
     <div class="random-container">
-      <div class="random-text-container">
-        <p class="random-mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> TUTORIALS</p>
-        <p class="random-title">Mind-Blowing Twitter Stats and Facts on Our Favorite Network (2018)</p>
-        <p class="random-paragraph">
+    <div class="random-essentials-text-container">
+        <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> TUTORIALS</p>
+        <p class="random-essentials-title">Mind-Blowing Twitter Stats and Facts on Our Favorite Network (2018)</p>
+        <p class="random-essentials-paragraph">
          User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
         </p>
       </div>
@@ -170,52 +172,59 @@
    </div>
 
    <!-- ESSENTIALS -->
-   <div>
-    <div>
-      <h4>Esentials</h4>
-      <p>View All</p>
+   <div class="essentials-section">
+    <div class="view-all-flex">
+      <h4 class="heading-view">Esentials</h4>
+      <p class="view-all">View All</p>
     </div>
 
-    <div>
-      <div>
-        <h4>title</h4>
-        <p>description</p>
+    <div class="essentials-flex">
+      <div class="essentials-container">
+        <div class="card-text">
+          <h4 class="card-heading">DESIGN PROCESS</h4>
+          <p class="card-paragraph">Is WordPress Secure? Here’s What the Data Says</p>
+        </div>
+        <div class="card-text">
+            <h4 class="card-heading">FREELANCING</h4>
+            <p id="coloured-paragraph" class="card-paragraph">What’s New in PHP 7.3 (Coming Soon)</p>
+          </div>
+          <div class="card-text">
+            <h4 class="card-heading">WEB DESIGN</h4>
+            <p class="card-paragraph">How to Create a Quora Marketing Strategy</p>
+          </div>
+          <div class="card-text">
+            <h4 class="card-heading">TUTORIALS</h4>
+            <p class="card-paragraph">Find the Ideal WordPress Calendar Plugin</p>
+          </div>
       </div>
+  
       <div>
-        <h4>title</h4>
-        <p>description</p>
-      </div>
-      <div>
-        <h4>title</h4>
-        <p>description</p>
-      </div>
-      <div>
-        <h4>title</h4>
-        <p>description</p>
+        <div class="background-image-container essential-background-image">
+          <h4 class="background-image-title">BY   TOMAS LAURINAVICIUS   IN   INSPIRATION</h4>
+          <h2 class="background-image-mini-title">How to Fix the WordPress HTTP Error (Uploading Images to Media Library)</h2>
+          <p class="background-image-paragraph">
+           User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
+          </p>
+         </div>
       </div>
     </div>
 
-    <div>
-      <img src={background_image} alt="">
-      <div>
-        <h4>title</h4>
-        <p>description</p>
-        <p>mini description</p>
+    <div class="essentials-semi-container">
+      <div class="essentials-text-container">
+        <img src="./images/Business Blog/website-downtime.jpg" alt="website-downtime" class="essentials-image">
+        <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> TUTORIALS</p>
+        <p class="random-essentials-title">Website Downtime: Applicable Tips on How to Prevent It</p>
+        <p class="random-essentials-paragraph">
+         User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
+        </p>
       </div>
-    </div>
-
-    <div>
-      <div>
-        <img src={image} alt="">
-        <h4>title</h4>
-        <p>description</p>
-        <p>mini description</p>
-      </div>
-      <div>
-        <img src={image} alt="">
-        <h4>title</h4>
-        <p>description</p>
-        <p>mini description</p>
+      <div class="essentials-text-container">
+        <img src="images/Business Blog/error-404.jpg" alt="404 error" class="essentials-image">
+        <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> TUTORIALS</p>
+        <p class="random-essentials-title">How to Fix Error 404 Not Found on Your WordPress Site</p>
+        <p class="random-essentials-paragraph">
+         User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
+        </p>
       </div>
     </div>
    </div>
