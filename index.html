@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/business_blog_styles/new.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/reading_lists.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/popular.css">
+    <link rel="stylesheet" href="./styles/business_blog_styles/random.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="./js/navbar.js" defer></script>
     <title>Blog</title>
@@ -151,16 +152,20 @@
    </div>
 
    <!-- RANDOM -->
-   <div>
-    <h4>Random</h4>
+   <div class="random-section">
+    <h4 class="heading-view">Random</h4>
 
-    <div>
-      <div>
-        <p>title</p>
-        <p>mini title</p>
-        <p>description</p>
+    <div class="random-container">
+      <div class="random-text-container">
+        <p class="random-mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> TUTORIALS</p>
+        <p class="random-title">Mind-Blowing Twitter Stats and Facts on Our Favorite Network (2018)</p>
+        <p class="random-paragraph">
+         User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
+        </p>
       </div>
-      <img src={image} alt="">
+      <div class="random-image-container">
+        <img src="./images/Business Blog/random.svg" alt="random image" class="random-image">
+      </div>
     </div>
    </div>
 

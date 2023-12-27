@@ -41,7 +41,7 @@
   margin-bottom: 0.5rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .popular-section {
     padding: 4rem 5rem 0;
   }

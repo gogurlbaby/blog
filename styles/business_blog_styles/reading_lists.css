@@ -29,7 +29,7 @@
   letter-spacing: -0.15px; 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .reading-lists {
     padding: 6rem 5rem 0;
   }
