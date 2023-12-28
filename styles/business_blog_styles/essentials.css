@@ -1,5 +1,5 @@
 .essentials-section {
-  padding-top: 3rem;
+  padding: 3rem 0 4rem;
 }
 
 .essentials-container {
@@ -13,10 +13,6 @@
   background-position: center center;
 }
 
-.essentials-semi-container {
-    display: flex;
-}
-
 .essentials-text-container {
   padding: 1rem;
 }
@@ -28,7 +24,7 @@
 
 @media (min-width: 1200px) {
   .essentials-section {
-    padding: 6rem 5rem 0;
+    padding: 6rem 5rem;
   }
 
   .essentials-flex {
@@ -40,5 +36,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+
+  .essentials-semi-container {
+    display: flex;
   }
 }

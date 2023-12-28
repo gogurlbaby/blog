@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/business_blog_styles/random.css">
     <link rel="stylesheet" href="./styles/business_blog_styles/essentials.css">
     <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="./js/navbar.js" defer></script>
     <title>Blog</title>
 </head>
@@ -231,20 +232,20 @@
 
    <!-- FOOTER -->
   <footer>
-    <div>
-      <img src={logo} alt="">
+    <div class="footer-container">
+      <img src="images/footer-logo.svg" alt="footer logo" class="footer-logo">
 
       <div>
-        <ul>
-          <li><a href="">Vimeo</a></li>
-          <li><a href="">Pinterest</a></li>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Twitter</a></li>
-          <li><a href="">Facebook</a></li>
+        <ul class="footer-icons">
+          <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
         </ul>
       </div>
 
-      <p>All Rights Reserved 2018 3layers</p>
+      <p class="footer-paragraph">All Rights Reserved 2018 3layers</p>
     </div>
   </footer>
 
