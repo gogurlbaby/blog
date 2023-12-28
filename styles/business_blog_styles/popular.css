@@ -1,0 +1,26 @@
+.popular-section {
+  padding: 4rem 0 0;
+}
+
+.popular-background-image {
+  background-image: url("../../images/Business\ Blog/backgound_image2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 2.5rem 2rem 3rem;
+}
+
+@media (min-width: 1200px) {
+  .popular-section {
+    padding: 4rem 5rem 0;
+  }
+
+  .popular-background-image {
+    padding: 2.5rem 2rem;
+  }
+
+  .popular-container {
+    display: flex;
+    gap: 2rem;
+  }
+}

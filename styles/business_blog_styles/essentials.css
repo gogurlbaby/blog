@@ -1,0 +1,44 @@
+.essentials-section {
+  padding: 3rem 0 4rem;
+}
+
+.essentials-container {
+  padding: 0 1rem;
+}
+
+.essential-background-image {
+  background-image: url("../../images/Business\ Blog/background-image-essentials.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.essentials-text-container {
+  padding: 1rem;
+}
+
+.essentials-image {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .essentials-section {
+    padding: 6rem 5rem;
+  }
+
+  .essentials-flex {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  .essentials-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .essentials-semi-container {
+    display: flex;
+  }
+}

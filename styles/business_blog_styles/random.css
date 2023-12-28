@@ -1,0 +1,32 @@
+.random-section {
+  padding: 3rem 1rem 0;
+}
+
+.random-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.random-image-container {
+  order: 1;
+}
+
+.random-image {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .random-section {
+    padding: 6rem 5rem 0;
+  }
+  .random-container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .random-image-container {
+    order: 2;
+  }
+}
