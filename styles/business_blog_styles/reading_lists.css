@@ -29,13 +29,15 @@
   letter-spacing: -0.15px; 
 }
 
-@media (min-width: 1200px) {
-  .reading-lists {
-    padding: 6rem 5rem 0;
-  }
-  
+@media (min-width: 992px) {
   .reading-lists-container {
     display: flex;
     gap: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reading-lists {
+    padding: 6rem 5rem 0;
   }
 }

@@ -9,6 +9,10 @@
   background-position: center center;
 }
 
+.new-text-flex {
+  padding: 2rem 0 0;
+}
+
 .date-description-flex {
   margin: 2rem;
 }
@@ -30,11 +34,19 @@
   letter-spacing: -0.1px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+  .new-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
   .new-flex {
     display: flex;
     gap: 2rem;
-    padding: 4rem 5rem 0;
+    padding: 6rem 5rem 0;
   }
 
   .new-background-image {
@@ -44,15 +56,7 @@
   .new-text-flex {
     width: 100%;
   }
-
-  #new-view {
-    padding: 0 2rem;
-  }
 }
 
-@media (min-width: 1200px) {
-  .new-flex {
-    padding-top: 6.25rem;
-  }
-}
+
 

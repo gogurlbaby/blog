@@ -16,36 +16,36 @@
     <script src="./js/navbar.js" defer></script>
     <title>Blog</title>
 </head>
-<body>
+<body class="business-blog">
    <!-- NAVBAR-->
    <header>
     <nav>
      <div class="navbar">
-       <div class="navbar-flex">
-        <img src="./images/logo.svg" alt="Logo" class=""logo>
-        <div class="menu-button">
-          <i data-feather="menu" onclick="showOverlay()"></i> 
-        </div>
+       <div class="nav-desktop-flex">
+        <div class="navbar-flex">
+          <img src="./images/logo.svg" alt="Logo" class=""logo>
+          <div class="menu-button">
+            <i data-feather="menu" onclick="showOverlay()"></i> 
+          </div>
+         </div>
+         <!-- OVERLAY FOR SMALL SCREENS -->
+           <div id="overlay" class="nav-items-flex">
+            <ul>
+              <li><a href="">Popular</a></li>
+              <li class="navbar-btn">
+                New
+              </li>
+              <li><a href="">Reading Lists</a></li>
+              <li><a href="">Topics</a></li>
+              <li><a href="">Subscribe</a></li>
+            </ul>
+            <div class="close_icon">
+              <i data-feather="x" onclick="hideOverlay()"></i>
+            </div> 
+          </div>
        </div>
-       <!-- OVERLAY FOR SMALL SCREENS -->
-         <div id="overlay" class="nav-items-flex">
-          <ul>
-            <li><a href="">Popular</a></li>
-            <li>
-              <a href="">
-                <button type="button" class="navbar-btn">New</button>
-              </a>
-            </li>
-            <li><a href="">Reading Lists</a></li>
-            <li><a href="">Topics</a></li>
-            <li><a href="">Subscribe</a></li>
-          </ul>
-          <div class="close_icon">
-            <i data-feather="x" onclick="hideOverlay()"></i>
-          </div> 
-        </div>
+        <div><i data-feather="search" class="search-icon"></i> </div>
       </div>
-       <div><i data-feather="search" class="search-icon"></i> </div>
     </nav>
    </header>
 
@@ -60,12 +60,12 @@
     </div>
 
     <div class="new-text-flex">
-      <div id="new-view" class="view-all-flex">
+      <div class="view-all-flex">
         <h4 class="heading-view">New</h4>
         <p class="view-all">View All</p>
       </div>
       
-      <div>
+      <div class="new-container">
         <div class="date-description-flex">
           <p class="date">SEP  04  2018</p>
           <p class="date-description">Our 15 favorite websites from August 2018</p>
@@ -237,7 +237,8 @@
 
       <div>
         <ul class="footer-icons">
-          <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+          <li><a href=""><i class="fab fa-vimeo" id="icon"
+          ></i></a></li>
           <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
           <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
           <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
