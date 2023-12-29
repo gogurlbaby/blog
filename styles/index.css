@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;500;600;700;800 & display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .background-image-container {
-    padding: 2.5rem 2rem 6rem;
-    margin-bottom: 2.5rem;
-  }
+  padding: 2.5rem 2rem 6rem;
+  margin-bottom: 2.5rem;
+}
 
   .background-image-title {
     color: #FFF;
@@ -138,21 +138,7 @@ a {
     letter-spacing: -0.1px; 
   }
   
-@media (min-width: 1200px) {
-  .view-all-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }  
-
-  .heading-view {
-    text-align: start;
-  }
-
-  .view-all {
-    display: block;
-  }
-
+@media (min-width: 1200px) {  
   .background-image-container {
     border-radius: 1.5rem;
     margin-bottom: 0;
@@ -185,4 +171,30 @@ a {
   }
 }
 
+@media (min-width: 600px) {
+  .business-blog {
+   padding: 0 80px;
+  }
+}
+
+@media (min-width: 800px) {
+  .business-blog {
+   padding: 0 100px;
+  }
+
+  .view-all-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .heading-view {
+    text-align: start;
+  }
+
+  .view-all {
+    display: block;
+  }
+}
 

@@ -23,7 +23,6 @@ nav a {
   color: #FFF;
   font-size: 1rem;
   font-weight: 600;
-  line-height: normal;
 }
 
 .navbar-btn {
@@ -36,9 +35,8 @@ nav a {
   padding: 0.5rem 1rem;
 }
 
-
 /* MEDIA QUERIES TO SHOW MENU BUTTON AND CLOSE ICON ON SMALL SCREENS */
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .navbar-flex {
     display: flex;
     justify-content: space-between;
@@ -77,15 +75,20 @@ nav a {
 }
 
 /* MEDIA QUERIES TO SHOW NAVBAR ITEMS ON LARGE SCREENS */
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 3.625rem 5rem 0;
+    padding: 2rem 5rem;
   }
 
   .navbar {
     display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .nav-desktop-flex {
+    display: flex;
     align-items: center;
     gap: 5rem;
   }

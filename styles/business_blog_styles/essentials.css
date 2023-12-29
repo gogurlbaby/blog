@@ -22,6 +22,12 @@
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 992px) {
+  .essentials-semi-container {
+    display: flex;
+  }
+}
+
 @media (min-width: 1200px) {
   .essentials-section {
     padding: 6rem 5rem;
