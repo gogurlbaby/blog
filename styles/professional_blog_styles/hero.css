@@ -1,0 +1,30 @@
+.hero-section {
+  background-image: url("../../images/Professional\ Blog/background-image.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 15rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .hero-mini-title {
+    font-size: 2.25rem;
+    line-height: 46px; 
+    letter-spacing: -0.225px;
+  }
+
+  .hero-paragraph {
+    font-size: 1.125rem;
+    line-height: 32px; 
+    letter-spacing: -0.112px;
+  }
+}
