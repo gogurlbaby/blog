@@ -1,0 +1,87 @@
+.freelance-section {
+  padding: 4rem 1rem;
+}
+
+.freelance-image-text-container {
+  margin-bottom: 3rem;
+}
+
+.freelance-image {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.freelance-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4rem 4rem;
+}
+
+.freelance-btn {
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  background-color: #FFF;
+  border: 2px solid #FF5480;
+  color: #FF5480;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.insta-section {
+  padding: 0 1rem 2.5rem;
+}
+
+.insta {
+  color: #111210;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.175px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.freelance-images {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .freelance-section {
+    padding: 6rem 7.5rem;
+  }
+  
+  .freelance-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+  }
+
+  .freelance-btn-container {
+    padding: 0 7.5rem 7.5rem;
+  }
+
+  .freelance-btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+
+  .insta-section {
+    padding-bottom: 5rem;
+  }
+
+  .insta {
+    font-size: 1.75rem;
+  }
+
+  .freelance-images-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .freelance-images {
+    margin-bottom: 0;
+  }
+}
