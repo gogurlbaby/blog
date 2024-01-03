@@ -11,24 +11,6 @@
   margin-bottom: 1.5rem;
 }
 
-.freelance-btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 4rem 4rem;
-}
-
-.freelance-btn {
-  border-radius: 40px;
-  padding: 0.5rem 1rem;
-  background-color: #FFF;
-  border: 2px solid #FF5480;
-  color: #FF5480;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: -0.5px;
-}
-
 .insta-section {
   padding: 0 1rem 2.5rem;
 }
@@ -57,15 +39,6 @@
     display: flex;
     gap: 2.5rem;
     align-items: flex-start;
-  }
-
-  .freelance-btn-container {
-    padding: 0 7.5rem 7.5rem;
-  }
-
-  .freelance-btn {
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
   }
 
   .insta-section {

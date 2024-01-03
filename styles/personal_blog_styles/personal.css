@@ -1,0 +1,93 @@
+.personal-section {
+  padding: 4rem 1rem;
+}
+
+.personal-image {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.personal-image-text-container {
+  margin-bottom: 4rem;
+}
+
+.web-design {
+  color: #111210;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.personal-paragraph {
+  color: #111210;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.112px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background: #FFF;
+  padding: 0.5rem 1rem;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.subscribe-input {
+  width: 100%;
+  background-color: #FFF;
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+}
+
+.subscribe-btn {
+  border-radius: 40px;
+  background: #FF5480;
+  border: 1px solid #FF5480;
+  padding: 0.5rem 1rem;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+@media (min-width: 992px) {
+  .personal-section {
+    padding: 6rem 15rem;
+  }
+
+  .personal-image-text-container {
+    margin-bottom: 6.625rem;
+  }
+
+  .subscribe-section {
+    padding: 0 2rem;
+  }
+
+  .web-design {
+    font-size: 2rem;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  .personal-paragraph {
+    font-size: 1.125rem;
+    margin-bottom: 3.375rem;
+  }
+
+  .subscribe-btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+}
