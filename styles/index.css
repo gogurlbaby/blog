@@ -137,6 +137,36 @@ a {
     line-height: 24px;
     letter-spacing: -0.1px; 
   }
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem 4rem;
+  }
+  
+  .btn {
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    background-color: #FFF;
+    border: 2px solid #FF5480;
+    color: #FF5480;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+
+
+@media (min-width: 992px) {
+  .btn-container {
+    padding: 0 7.5rem 7.5rem;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+  }
+}
   
 @media (min-width: 1200px) {  
   .background-image-container {

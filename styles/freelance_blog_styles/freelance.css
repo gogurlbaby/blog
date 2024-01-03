@@ -1,0 +1,60 @@
+.freelance-section {
+  padding: 4rem 1rem;
+}
+
+.freelance-image-text-container {
+  margin-bottom: 3rem;
+}
+
+.freelance-image {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.insta-section {
+  padding: 0 1rem 2.5rem;
+}
+
+.insta {
+  color: #111210;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.175px;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.freelance-images {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  .freelance-section {
+    padding: 6rem 7.5rem;
+  }
+  
+  .freelance-container {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+  }
+
+  .insta-section {
+    padding-bottom: 5rem;
+  }
+
+  .insta {
+    font-size: 1.75rem;
+  }
+
+  .freelance-images-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .freelance-images {
+    margin-bottom: 0;
+  }
+}
