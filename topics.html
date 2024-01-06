@@ -3,9 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/topics_styles/topics.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
     <title>Topics</title>
 </head>
 <body>
-    <h1>Topics</h1>
+    <!-- NAVBAR-->
+    <header>
+        <nav>
+         <div class="navbar">
+           <div class="nav-desktop-flex">
+            <div class="navbar-flex">
+              <img src="./images/logo.svg" alt="Logo" class=""logo>
+              <div class="menu-button">
+                <i data-feather="menu" onclick="showOverlay()"></i> 
+              </div>
+             </div>
+             <!-- OVERLAY FOR SMALL SCREENS -->
+               <div id="overlay" class="nav-items-flex">
+                <ul>
+                  <li><a href="/popular.html">Popular</a></li>
+                  <li>
+                    <button type="button" href="/new" class="navbar-btn">New</button>
+                  </li>
+                  <li><a href="/reading-lists.html">Reading Lists</a></li>
+                  <li><a href="/topics.html">Topics</a></li>
+                  <li><a href="/subscribe.html">Subscribe</a></li>
+                </ul>
+                <div class="close_icon">
+                  <i data-feather="x" onclick="hideOverlay()"></i>
+                </div> 
+              </div>
+           </div>
+            <div><i data-feather="search" class="search-icon"></i> </div>
+          </div>
+        </nav>
+       </header>
+
+        <!-- INTRO -->
+      <div class="intro-section">
+        <h2 class="intro-title">Topics</h2>
+        <p class="intro-paragraph">Find everything from design inspiration to best practices, freelancing tips to tools.</p>
+      </div>
+
+      <!-- TOPICS SECTION -->
+      <div class="topics-section">
+        <p class="links">Home  —  Topics</p>
+
+        <div class="topics-main-container">
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/inspiration.svg" alt="inspiration" class="topics-icon">
+              <h4 class="topics-title">Inspiration</h4>
+            </div>
+            <p class="topics-paragraph">
+             Get the web design inspiration you need from top 3layers users, amazing landing page and site designs, and 3layers Workshops.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/resource.svg" alt="resource" class="topics-icon">
+              <h4 class="topics-title">Resource</h4>
+            </div>
+            <p class="topics-paragraph">
+             All the free tools and resources you need to build better websites, manage your time, be more creative, and freelance like a boss.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/announcements.svg" alt="announcements" class="topics-icon">
+              <h4 class="topics-title">Announcements</h4>
+            </div>
+            <p class="topics-paragraph">
+             Get the lowdown on the latest new features of 3layers, from flexbox to responsive images, Client Billing to Google Domains.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/entrepreneurship.svg" alt="entrepreneurship" class="topics-icon">
+              <h4 class="topics-title">Entrepreneurship</h4>
+            </div>
+            <p class="topics-paragraph">
+             Get tips and insights on building your own business with a little help from 3layers.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/tutorials.svg" alt="tutorials" class="topics-icon">
+              <h4 class="topics-title">Tutorials</h4>
+            </div>
+            <p class="topics-paragraph">
+             Get step-by-step guides to building common layouts and interactions, including how to build natural-language forms, modals, ebooks, banner ads, and much more.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/freelancing.svg" alt="freelancing" class="topics-icon">
+              <h4 class="topics-title">Freelancing</h4>
+            </div>
+            <p class="topics-paragraph">
+             Get tips, insights, and advice on becoming a freelance web designer, including how to find clients, design your freelancing rates, and managing projects.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/design_process.svg" alt="design_process" class="topics-icon">
+              <h4 class="topics-title">Design Process</h4>
+            </div>
+            <p class="topics-paragraph">
+             Learn to better manage your design process, from wireframing and prototyping to gathering and handling feedback — plus tools that help.
+            </p>
+          </div>
+
+          <div class="topics-container">
+            <div class="icon-text-container">
+              <img src="./images/Topics/web_design.svg" alt="web_design" class="topics-icon">
+              <h4 class="topics-title">Web Design</h4>
+            </div>
+            <p class="topics-paragraph">
+             Get detailed tips and insights on common design patterns and best practices, SEO, landing page design, and so much more.
+            </p>
+          </div>
+        </div>
+      </div>
+
+       <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <img src="images/footer-logo.svg" alt="footer logo" class="footer-logo">
+
+      <div>
+        <ul class="footer-icons">
+          <li><a href=""><i class="fab fa-vimeo" id="icon"
+          ></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+        </ul>
+      </div>
+
+      <p class="footer-paragraph">All Rights Reserved 2018 3layers</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
 </body>
 </html>
