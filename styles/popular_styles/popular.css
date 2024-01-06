@@ -1,0 +1,157 @@
+.intro-section {
+  padding: 5rem 1rem;
+}
+
+.intro-title {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.225px;
+  margin-bottom: 2rem;
+}
+
+.intro-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.intro-heading {
+  color: #111210;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.15px;
+  margin-bottom: 1rem;
+}
+
+.intro-paragraph {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+}
+
+.links {
+  color: #C8C8C8;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.075px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.popular-section {
+    padding: 4rem 1rem 0;
+}
+  
+
+.popular-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+.popular-text-container {
+  order: 2;
+}
+
+.popular-image-container {
+  order: 1;
+  margin-bottom: 1rem;
+}
+
+.popular-number {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: -0.15px;
+  margin-bottom: 0.625rem;
+}
+
+.popular-heading {
+  color: #111210;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: -0.175px;
+  margin-bottom: 1rem;
+}
+
+.popular-paragraph {
+  color: #9B9B9B;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+}
+
+.popular-image {
+  width: 100%;
+}
+
+.subscribe-section {
+  padding: 5rem 1rem;
+}
+
+@media (min-width: 992px) {
+  .intro-section {
+    padding: 6rem 5rem;
+  }
+
+  .intro-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .intro-title {
+    font-size: 2.25rem;
+  }
+
+  .intro-image {
+    width: 20%;
+    margin-bottom: 0;
+  }
+
+  .intro-heading {
+    font-size: 1.5rem;
+  }
+
+  .intro-paragraph {
+    font-size: 1rem;
+  }   
+
+  .links {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
+  .popular-section {
+    padding: 4rem 5rem 8rem;
+  }
+
+  .popular-container {
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .popular-text-container {
+    order: 1;
+  }
+
+  .popular-image-container {
+    order: 2;
+    margin-bottom: 0;
+  }
+
+  .popular-heading {
+    font-size: 1.75rem;
+    margin-bottom: 1.625rem;
+  }
+}
