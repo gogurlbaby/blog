@@ -1,0 +1,51 @@
+.topics-section {
+  padding: 4rem 1rem; 
+}
+
+.topics-main-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.icon-text-container {
+  margin-bottom: 2rem;
+}
+
+.topics-icon {
+  margin-bottom: 2rem;
+}
+
+.topics-title {
+  color: #111210;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 24px; 
+  letter-spacing: -0.15px;
+}
+
+.topics-paragraph {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 32px; 
+  letter-spacing: -0.1px;
+}
+
+.topics-paragraph:not(:first-child) {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  .topics-section {
+    padding: 4rem 5rem 6rem;
+  }
+  .topics-main-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .icon-text-container {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
