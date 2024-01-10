@@ -231,10 +231,64 @@ li {
 }
 
 .calendar-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+}
+
+.calendar-title {
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.days {
+  color: #9B9B9B;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19.009px; 
+}
+
+.date {
+  color: #E1E4E7;
+  text-align: center;
+  font-size: 0.909rem;
+  font-weight: 600;
+}
+
+.dates {
+  color: #7C86A2;
+  text-align: center;
+  font-size: 0.909rem;
+  font-weight: 600;
+}
+
+.date-highlight{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: #FF5480;
+  color: #FFF;
+  border-radius: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #FFF;
 }
 
 .ads-banner-section {
@@ -256,6 +310,46 @@ li {
   line-height: 24px;
   text-align: center;
   letter-spacing: -0.112px;
+}
+
+.tags-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  gap: 0.2rem;
+  padding: 2rem 10rem;
+  margin: 4rem 0;
+}
+
+.tags-container {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.tag {
+  color: #111210;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px; 
+}
+
+.close-icon {
+  color: #979797;
+}
+
+.tag-btn {
+  background-color: #9283E0;
+  padding: 0.3rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #9283E0;
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px; 
 }
 
 @media (min-width: 992px) {
