@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/essentials.css">
+    <link rel="stylesheet" href="./styles/personal_blog_styles/personal.css">
+    <link rel="stylesheet" href="./styles/author_styles/author.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
+    <title>Author</title>
+</head>
+<body>
+     <!-- NAVBAR-->
+     <header>
+        <nav>
+         <div class="navbar">
+           <div class="nav-desktop-flex">
+            <div class="navbar-flex">
+              <img src="./images/logo.svg" alt="Logo" class=""logo>
+              <div class="menu-button">
+                <i data-feather="menu" onclick="showOverlay()"></i> 
+              </div>
+             </div>
+             <!-- OVERLAY FOR SMALL SCREENS -->
+               <div id="overlay" class="nav-items-flex">
+                <ul>
+                  <li><a href="/popular.html">Popular</a></li>
+                  <li>
+                    <button type="button" href="/new" class="navbar-btn">New</button>
+                  </li>
+                  <li><a href="/reading-lists.html">Reading Lists</a></li>
+                  <li><a href="/topics.html">Topics</a></li>
+                  <li><a href="/subscribe.html">Subscribe</a></li>
+                </ul>
+                <div class="close_icon">
+                  <i data-feather="x" onclick="hideOverlay()"></i>
+                </div> 
+              </div>
+           </div>
+            <div><i data-feather="search" class="search-icon"></i> </div>
+          </div>
+        </nav>
+       </header>
+
+       <!-- AUTHOR SECTION -->
+       <p class="links links-space">Home  —  Tomas Laurinavicius</p>
+       <div class="author-section">
+        <div class="author-first-container">
+          <div class="author-details">
+            <img src="./images/Author/author.svg" alt="author" class="author-image">
+            <p class="author-name">TOMAS LAURINAVICIUS</p>
+            <p class="author-intro">Hi, my name is Daniel, I'm the CTO here at Kinsta.</p>
+            <ul class="author-social-handles">
+              <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+              <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+              <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+              <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+              <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+            </ul>
+          </div>
+          
+          <div class="images-text-flex">
+            <div class="author-image-text-container">
+              <img src="images/Author/image_1.svg" alt="author photo" class="author-images">
+              <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> RESOURCE</p>
+              <p class="random-essentials-title">How to Migrate from Wix to WordPress (Complete Guide)</p>
+           </div>
+  
+           <div class="author-image-text-container">
+            <img src="images/Author/image_2.svg" alt="author photo" class="author-images">
+            <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> RESOURCE</p>
+            <p class="random-essentials-title">Preparing Your WordPress Site for the Google Mobile-First Index</p>
+          </div>
+  
+          <div class="author-image-text-container">
+            <img src="images/Author/image_3.svg" alt="author photo" class="author-images">
+            <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> RESOURCE</p>
+            <p class="random-essentials-title">How To Use Yoast SEO On WordPress: Complete Tutorial</p>
+          </div>
+          </div>
+
+          <!-- NUMBERS SECTION -->
+          <div class="numbers-section">
+            <p class="number">01</p>
+            <p class="number highlighted-background">02</p>
+            <p class="number">03</p>
+            <p class="dots">. . .</p>
+            <p class="number">15</p>
+            <p class="number">16</p>
+          </div>
+
+           <!-- SUBSCRIBE SECTION -->
+      <div class="subscribe-section">
+        <h4 class="web-design">Get free web design insights...</h4>
+        <p class="personal-paragraph">In your inbox, every other week. And unsubscribe in a click, if you want.</p>
+
+        <div class="input-container">
+          <input type="email" name="email" id="email" placeholder="Your email" class="subscribe-input">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+
+   <div class="author-second-container">
+    <div class="input-container">
+      <input type="text" name="" id="" placeholder="Type something…" class="input">
+      <i data-feather="search"></i> 
+    </div>
+
+   <!-- POPULAR POST SECTION -->
+   <div class="popular-post-section">
+    <h4 class="popular-post-title">POPULAR POST</h4>
+    <div class="popular-post-container">
+      <img src="./images/Author/post_image_1.svg" alt="post-image" class="popular-post-image">
+      <div class="popular-text-container">
+        <p class="popular-post-heading">DESIGN PROCESS</p>
+        <p class="popular-post-text">Our 15 favorite websites from August</p>
+      </div>
+    </div>
+    <div class="popular-post-container">
+      <img src="./images/Author/post_image_2.svg" alt="post-image" class="popular-post-image">
+      <div class="popular-text-container">
+        <p class="popular-post-heading">INSPIRATION</p>
+        <p class="popular-post-text" id="coloured-paragraph">The beginners guide to user research</p>
+      </div>
+    </div>
+    <div class="popular-post-container">
+      <img src="./images/Author/post_image_3.svg" alt="post-image" class="popular-post-image">
+      <div class="popular-text-container">
+        <p class="popular-post-heading">INSPIRATION</p>
+        <p class="popular-post-text">Web page layout 101: website anatomy every designer</p>
+      </div>
+    </div>
+   </div>
+
+   <!-- RECENT POST SECTION -->
+   <div class="recent-post-section">
+    <h4 class="popular-post-title">RECENT POST</h4>
+    <div class="recent-post-container">
+      <p class="popular-post-heading">DESIGN PROCESS</p>
+      <p class="popular-post-text">Our 15 favorite websites from August </p>
+    </div>
+    <div class="recent-post-container">
+      <p class="popular-post-heading">INSPIRATION</p>
+      <p class="popular-post-text" id="coloured-paragraph">The beginners guide to user research</p>
+    </div>
+    <div class="recent-post-container">
+      <p class="popular-post-heading">INSPIRATION</p>
+      <p class="popular-post-text">Web page layout 101: website anatomy every designer needs to learn</p>
+    </div>
+    <div class="recent-post-container">
+      <p class="popular-post-heading">FREELANCING</p>
+      <p class="popular-post-text">10 essential sections to a high landing page</p>
+    </div>
+   </div>
+
+    <!-- SUBSCRIBE SECTION -->
+    <div class="author-subscribe-section">
+      <h4 class="subscribe">SUBSCRIBE</h4>
+      <div class="input-container">
+        <input type="email" name="email" id="email" placeholder="Your email" class="subscribe-input">
+        <button type="submit" class="subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+
+  <!-- STATIC CAROUSEL SECTION -->
+  <div class="carousel-section">
+    <img src="./images/Author/subscribe_image_1.svg" alt="subscribe-image" class="subscribe-image">
+    <img src="./images/Author/subscribe_image_2.svg" alt="subscribe-image" class="subscribe-image">
+  </div>
+
+  <!-- ESSENTIALS SECTION -->
+   <div class="essentials-section">
+    <h4 class="essential-title">Essentials</h4>
+    <p class="social-media">SOCIAL MEDIA</p>
+    <ul class="social-media-icons">
+      <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+      <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+      <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+      <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+      <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+    </ul>
+   </div>
+
+   <!-- CALENDAR SECTION -->
+   <div class="calendar-section">
+    <h4 class="calendar-title">December 2018</h4>
+    <table>
+      <thead>
+          <tr class="days">
+              <th>S</th>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>T</th>
+              <th>F</th>
+              <th>S</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td class="date">27</td>
+              <td class="date">28</td>
+              <td class="date">29</td>
+              <td class="date">30</td>
+              <td class="dates">1</td>
+              <td class="dates">2</td>
+              <td class="dates">3</td>
+          </tr>
+          <tr class="dates">
+            <td>4</td>
+            <td>5</td>
+            <td class="date-highlight">6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr class="dates">
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+      </tr>
+      <tr class="dates">
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+    </tr>
+    <tr class="dates">
+      <td>25</td>
+      <td>26</td>
+      <td>27</td>
+      <td>28</td>
+      <td>29</td>
+      <td>30</td>
+      <td>31</td>
+  </tr>
+          <!-- Repeat this row for each week -->
+          <!-- You will need to fill in the days for each corresponding cell -->
+      </tbody>
+  </table>
+   </div>
+
+   <!-- ADS BANNER SECTION -->
+   <div class="ads-banner-section">
+    <h4 class="ads-banner">ADS BANNER</h4>
+   </div>
+
+   <!-- TAGS SECTION -->
+   <div class="tags-section">
+    <div class="tags-container">
+      <p class="tag">Sale</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Revenue</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Shipment</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Dashboards</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Users</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Booking</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Admin</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Late</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Values</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Benefits</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Bank</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <a class="tag-btn">Master</a>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Employee</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+    <div class="tags-container">
+      <p class="tag">Management</p>
+      <span class="close-icon"><i data-feather="x"></i></span>
+    </div>
+   </div>
+
+   </div>
+
+
+  </div>
+
+       <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <img src="images/footer-logo.svg" alt="footer logo" class="footer-logo">
+
+      <div>
+        <ul class="footer-icons">
+          <li><a href=""><i class="fab fa-vimeo" id="icon"
+          ></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+        </ul>
+      </div>
+
+      <p class="footer-paragraph">All Rights Reserved 2018 3layers</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

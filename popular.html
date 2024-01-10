@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/popular_styles/popular.css">
+    <link rel="stylesheet" href="./styles/business_blog_styles/reading_lists.css">
+    <link rel="stylesheet" href="./styles/personal_blog_styles/personal.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
+    <title>Popular</title>
+</head>
+<body>
+    <!-- NAVBAR-->
+    <header>
+        <nav>
+         <div class="navbar">
+           <div class="nav-desktop-flex">
+            <div class="navbar-flex">
+              <img src="./images/logo.svg" alt="Logo" class=""logo>
+              <div class="menu-button">
+                <i data-feather="menu" onclick="showOverlay()"></i> 
+              </div>
+             </div>
+             <!-- OVERLAY FOR SMALL SCREENS -->
+               <div id="overlay" class="nav-items-flex">
+                <ul>
+                  <li><a href="/popular.html">Popular</a></li>
+                  <li>
+                    <button type="button" href="/new" class="navbar-btn">New</button>
+                  </li>
+                  <li><a href="/reading-lists.html">Reading Lists</a></li>
+                  <li><a href="/topics.html">Topics</a></li>
+                  <li><a href="/subscribe.html">Subscribe</a></li>
+                </ul>
+                <div class="close_icon">
+                  <i data-feather="x" onclick="hideOverlay()"></i>
+                </div> 
+              </div>
+           </div>
+            <div><i data-feather="search" class="search-icon"></i> </div>
+          </div>
+        </nav>
+       </header>
+
+      <!-- INTRO -->
+      <div class="intro-section">
+        <h2 class="intro-title">Reading lists</h2>
+        <div class="intro-container">
+          <img src="./images/Popular/image_0.svg" alt="reading-lists image" class="intro-image">
+            <h4 class="intro-heading">Popular</h4>
+            <p class="intro-paragraph">Check out the most-read and most-shared posts from the 3layers blog.</p>
+        </div>
+      </div>
+
+      <!-- POPULAR SECTION -->
+      <div class="popular-section">
+        <p class="links">Home  —  Reading lists  —  Popular</p>
+        
+        <div class="popular-container">
+          <div class="popular-text-container">
+            <p class="popular-number">01</p>
+            <h4 class="popular-heading">5 Things More Important for Your Content Than Content-Length in 2018</h4>
+            <p class="popular-paragraph">
+             User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+            </p>
+          </div>
+          <div class="popular-image-container">
+            <img src="./images/Popular/image_1.svg" alt="popular image" class="popular-image">
+          </div>
+        </div>
+
+        <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">02</p>
+              <h4 class="popular-heading">WordPress Website Cost – The Real Truth Behind Building a Site</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_2.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">03</p>
+              <h4 class="popular-heading">How to Fix a 500 Internal Server Error on Your WordPress Site</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_3.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">04</p>
+              <h4 class="popular-heading">Dedicated IP Address vs Shared IP Address (Debunking Myths)</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_4.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">05</p>
+              <h4 class="popular-heading">Web page layout 101: website anatomy every designer needs to learn</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_5.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">06</p>
+              <h4 class="popular-heading">16 Lessons Learned Bootstrapping Kinsta From $0 to 7-Figures in Revenue</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_6.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">07</p>
+              <h4 class="popular-heading">How to Start Your Food Blog – Complete Guide to Kickstart and Promote It</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_7.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+
+          <div class="popular-container">
+            <div class="popular-text-container">
+              <p class="popular-number">08</p>
+              <h4 class="popular-heading">How to Reinstall WordPress: 5 Different Methods Depending On Your Needs</h4>
+              <p class="popular-paragraph">
+               User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.   
+              </p>
+            </div>
+            <div class="popular-image-container">
+              <img src="./images/Popular/image_8.svg" alt="popular image" class="popular-image">
+            </div>
+          </div>
+      </div>
+
+      <!-- READING LISTS -->
+   <div class="reading-lists">
+    <div class="view-all-flex">
+      <h4 class="heading-view">Reading Lists</h4>
+      <p id="coloured-paragraph" class="view-all">View All</p>
+    </div>
+
+    <div class="reading-lists-container">
+      <div class="reading-image-text-flex">
+        <img src="./images/Business Blog/UI_design.svg" alt="ui design image" class="reading-image">
+        <p class="reading-lists-paragraph">UI design</p>
+      </div>
+      <div class="reading-image-text-flex">
+        <img src="images/Business Blog/UX_design.svg" alt="ux design image" class="reading-image" >
+        <p id="coloured-paragraph" class="reading-lists-paragraph">UX design</p>
+      </div>
+      <div class="reading-image-text-flex">
+        <img src="images/Business Blog/SEO.svg" alt="seo image" class="reading-image" >
+        <p class="reading-lists-paragraph">SEO</p>
+      </div>
+      <div class="reading-image-text-flex">
+        <img src="./images/Business Blog/POPULAR.svg" alt="popular image" class="reading-image" >
+        <p class="reading-lists-paragraph">Popular</p>
+      </div>
+      <div class="reading-image-text-flex">
+        <img src="./images/Business Blog/ESSENTIALS.svg" alt="essentials image" class="reading-image" >
+        <p class="reading-lists-paragraph">Essentials</p>
+      </div>
+    </div>
+   </div>
+
+    <!-- SUBSCRIBE SECTION -->
+    <div class="subscribe-section">
+        <h4 class="web-design">Get free web design insights...</h4>
+        <p class="personal-paragraph">In your inbox, every other week. And unsubscribe in a click, if you want.</p>
+
+        <div class="input-container">
+          <input type="email" name="email" id="email" placeholder="Your email" class="subscribe-input">
+          <button type="submit" class="subscribe-btn">Subscribe</button>
+        </div>
+      </div>
+      </div>
+
+    <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <img src="images/footer-logo.svg" alt="footer logo" class="footer-logo">
+
+      <div>
+        <ul class="footer-icons">
+          <li><a href=""><i class="fab fa-vimeo" id="icon"
+          ></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+        </ul>
+      </div>
+
+      <p class="footer-paragraph">All Rights Reserved 2018 3layers</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

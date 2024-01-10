@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/reading-lists_styles/reading-lists.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
+    <title>Reading Lists</title>
+</head>
+<body>
+     <!-- NAVBAR-->
+    <header>
+        <nav>
+         <div class="navbar">
+           <div class="nav-desktop-flex">
+            <div class="navbar-flex">
+              <img src="./images/logo.svg" alt="Logo" class=""logo>
+              <div class="menu-button">
+                <i data-feather="menu" onclick="showOverlay()"></i> 
+              </div>
+             </div>
+             <!-- OVERLAY FOR SMALL SCREENS -->
+               <div id="overlay" class="nav-items-flex">
+                <ul>
+                  <li><a href="/popular.html">Popular</a></li>
+                  <li>
+                    <button type="button" href="/new" class="navbar-btn">New</button>
+                  </li>
+                  <li><a href="/reading-lists.html">Reading Lists</a></li>
+                  <li><a href="/topics.html">Topics</a></li>
+                  <li><a href="/subscribe.html">Subscribe</a></li>
+                </ul>
+                <div class="close_icon">
+                  <i data-feather="x" onclick="hideOverlay()"></i>
+                </div> 
+              </div>
+           </div>
+            <div><i data-feather="search" class="search-icon"></i> </div>
+          </div>
+        </nav>
+       </header>
+
+        <!-- INTRO -->
+      <div class="intro-section">
+        <h2 class="intro-title">All reading lists</h2>
+        <p class="intro-paragraph">Get in-depth insights on web design, freelancing, content management, and more with these series of related reads.</p>
+      </div>
+
+      <!-- READING LISTS SECTION-->
+      <div class="reading-lists-section">
+        <p class="links">Home  —  Reading lists</p>
+
+        <div class="reading-main-container">
+            <div class="reading-lists-container">
+                <img src="./images/Reading Lists/ui-design.svg" alt="ui design" class="reading-image">
+                <div class="reading-text-container">
+                  <h4 class="reading-title">UI design</h4>
+                  <p class="reading-paragraph">Every website is a user interface. Learn to build yours right.</p>
+                </div>
+              </div>
+      
+              <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/ux-design.svg" alt="ux design" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">UX design</h4>
+                    <p class="reading-paragraph">Step-by-step instructions to make your very own agency site in 3layers.</p>
+                  </div>
+                </div>
+      
+                <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/popular.svg" alt="popular" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">Popular</h4>
+                    <p class="reading-paragraph">Check out the most-read and most-shared posts from the 3layers blog.</p>
+                  </div>
+                </div>
+      
+                <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/freelance.svg" alt="freelance" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">Freelance</h4>
+                    <p class="reading-paragraph">From tools to tips, everything you need to start — or grow — your freelance design career.</p>
+                  </div>
+                </div>
+      
+                <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/SEO.svg" alt="SEO" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">SEO</h4>
+                    <p class="reading-paragraph">Everything you need to know to make sure your sites rank high in search.</p>
+                  </div>
+                </div>
+      
+                <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/typography.svg" alt="typography" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">Typography</h4>
+                    <p class="reading-paragraph">The web is 99% typography. Make sure you're setting your type right.</p>
+                  </div>
+                </div>
+      
+                <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/essentials.svg" alt="essentials" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">Essentials</h4>
+                    <p class="reading-paragraph">Whether you're new to web design or 3layers, start here.</p>
+                  </div>
+                </div>
+      
+                <div class="reading-lists-container">
+                  <img src="./images/Reading Lists/how_not_to.svg" alt="how_not_to" class="reading-image">
+                  <div class="reading-text-container">
+                    <h4 class="reading-title">How not to</h4>
+                    <p class="reading-paragraph">Like a serving of snark with your web design advice? Then you're going to love these.</p>
+                  </div>
+                </div>
+        </div>
+      </div>
+
+       <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <img src="images/footer-logo.svg" alt="footer logo" class="footer-logo">
+
+      <div>
+        <ul class="footer-icons">
+          <li><a href=""><i class="fab fa-vimeo" id="icon"
+          ></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+        </ul>
+      </div>
+
+      <p class="footer-paragraph">All Rights Reserved 2018 3layers</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
