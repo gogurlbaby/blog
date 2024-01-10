@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/post_styles/post.css">
+    <link rel="stylesheet" href="./styles/essentials.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
+    <title>Post</title>
+</head>
+<body>
+     <!-- NAVBAR-->
+     <header>
+        <nav>
+         <div class="navbar">
+           <div class="nav-desktop-flex">
+            <div class="navbar-flex">
+              <img src="./images/logo.svg" alt="Logo" class=""logo>
+              <div class="menu-button">
+                <i data-feather="menu" onclick="showOverlay()"></i> 
+              </div>
+             </div>
+             <!-- OVERLAY FOR SMALL SCREENS -->
+               <div id="overlay" class="nav-items-flex">
+                <ul>
+                  <li><a href="/popular.html">Popular</a></li>
+                  <li>
+                    <button type="button" href="/new" class="navbar-btn">New</button>
+                  </li>
+                  <li><a href="/reading-lists.html">Reading Lists</a></li>
+                  <li><a href="/topics.html">Topics</a></li>
+                  <li><a href="/subscribe.html">Subscribe</a></li>
+                </ul>
+                <div class="close_icon">
+                  <i data-feather="x" onclick="hideOverlay()"></i>
+                </div> 
+              </div>
+           </div>
+            <div><i data-feather="search" class="search-icon"></i> </div>
+          </div>
+        </nav>
+       </header>
+
+       <!-- INTRO -->
+      <div class="intro-section">
+        <h2 class="post-intro-title">10 Reasons to Build Your Website with WP Page Builder</h2>
+        <p class="post-intro-paragraph">
+         People’s quest for creating websites has easily taken us to a new era of site development. Where, with the availability of robust page building tools, creating websites has become a lot more fun (especially for non-developers).
+        </p>
+        <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> RESOURCE</p>
+      </div>
+
+      <!-- POST SECTION -->
+      <div class="post-section">
+        <p class="links">Home  —  Reading lists  —  UX Design  —  10 Reasons to Build Your Website with WP Page Builder</p>
+
+        <div class="icons-image-flex">
+          <ul class="social-icons">
+            <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+            <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+            <!-- <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+            <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+            <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li> -->
+          </ul>
+          <img src="./images/Post/image_1.svg" alt="post-image" class="post-image">
+          <ul class="social-icons">
+            <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+            <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          </ul>
+        </div>
+        <p class="post-paragraph">
+          People’s quest for creating websites has easily taken us to a new era of site development. Where, with the availability 
+          of robust page building tools, creating websites has become a lot more fun (especially for non-developers). 
+          The multitude of tools and plugins available to you is vast when you try building websites on WordPress. 
+          Today we’ll explore a new one, <span class="post-highlighted-text">WP Page Builder</span>. If you’re tired of the same old page builder plugins, 
+          this is one you should try out.
+        </p>
+        
+        <div class="special-container">
+          <h4 class="special-heading">What’s Special About WP Page Builder?</h4>
+          <p class="post-paragraph">
+           Wondering what makes WP Page Builder so special? I would say, what doesn’t? It’s developed by the team over at Themeum, 
+           who has been creating <span class="post-highlighted-text">WordPress themes</span> since 2013. As mentioned above, the plugin is a full pack of essential site 
+           building elements with all modern the modern functionality you’ve come to expect from a page builder plugin. 
+           Let’s have a look below at all of the juicy features WP Page Builder includes.
+          </p>
+          <img src="./images/Post/image_2.svg" alt="post-image" class="post-image image-space">
+        </div>
+
+        <div class="add-ons-container">
+          <p class="post-text">Here are some of the amazing add-ons included:</p>
+          <br/>
+          <ul>
+            <li class="post-text">
+              <strong>Form:</strong> Create web forms effortlessly. It gives you a convenient way to style your forms as you desire. 
+              The Form add-on itself is capable of setting up any kind of form without needing to install any plugin. Moreover, 
+              you can manage form plugins and enable reCAPTCHA with just a simple click. There is also an add-on for Contact Form 7 
+              if you prefer.
+            </li>
+            <li class="post-text">
+              <strong>Carousel:</strong> It’s hard to find an advanced add-on like a carousel in a free page builder plugin, 
+              but WP Page Builder lets you create stunning hero sliders without having to pay for it.
+            </li class="post-text">
+            <li class="post-text"><strong>Post Grid:</strong> Display blog posts in grids defining the number of posts and styling the look.</li>
+            <li class="post-text"><strong>Feature Box:</strong> Use the Feature Box add-on to display the features of products on your website.</li>
+            <li class="post-text">
+              <strong>Accordion:</strong> Need any collapse text content on your site? Use WP Page Builder’s Accordion add-on and 
+              modify the style the way you want.
+            </li>
+          </ul>
+	      </div>
+
+        <div class="wp-page-container">
+          <div class="image-container-flex">
+            <img src="./images/Post/image_3.svg" alt="post-image" class="post-image">
+            <img src="./images/Post/image_4.svg" alt="post-image" class="post-image">
+          </div>
+          <p class="wp-page-paragraph">
+            “ WP Page Builder offers a lot of ready-to-use design blocks to make your site development process a lot faster and easier “
+          </p>
+        </div>
+
+        <div class="author-container">
+          <img src="./images/Author/author.svg" alt="author" class="author-image">
+          <p class="author-name">TOMAS LAURINAVICIUS</p>
+          <p class="author-social-handle">Follow me <a href="/" class="author-link">@JohnAMWill</a>.</p>
+        </div>
+        
+        <h4 class="webpage-heading">You might also like...</h4>
+        <div class="webpage-container">
+          <div class="webpage-image-text-container">
+            <img src="./images/Post/image_5.svg" alt="webpage-image" class="webpage-image">
+            <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> RESOURCE</p>
+            <p class="random-essentials-title">Web page layout 101: website anatomy every designer needs to learn</p>
+            <p class="random-essentials-paragraph">
+              User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
+             </p>
+          </div>
+          <div class="webpage-image-text-container">
+            <img src="./images/Post/image_6.svg" alt="webpage-image" class="webpage-image">
+            <p class="mini-paragraph"><span id="grey-text">BY</span> TOMAS LAURINAVICIUS<span id="grey-text"> IN</span> RESOURCE</p>
+            <p class="random-essentials-title">Web page layout 101: website anatomy every designer needs to learn</p>
+            <p class="random-essentials-paragraph">
+              User research is the reality check every project needs. Here’s our guide to why you should be doing it — and how to get started.
+             </p>
+          </div>
+      </div>
+
+      <!-- COMMENTS SECTION -->
+      <div class="comments-section">
+        <div class="comments-intro">
+          <h4 class="comments-title">Comments</h4>
+          <button class="comments-btn">Leave a Comment</button>
+        </div>
+        <p class="comments-policy">
+         <strong>Comment policy:</strong> We love comments and appreciate the time that readers spend to share ideas and give feedback. However, 
+         all comments are manually moderated and those deemed to be spam or solely promotional will be deleted.
+        </p>
+
+        <div class="comments-container">
+          <div class="comments-flex">
+            <img src="./images/Post/person_1.svg" alt="commentor" class="commentor-icon">
+            <div class="commentor-details-container">
+              <div class="commentor-details">
+                <p class="name">Brian Jackson</p>
+                <p class="date">December 14, 2017 at 5:13 pm</p>
+                <p class="reply">Reply</p>
+              </div>
+              <p class="comment">
+                I think, you forgot to mention a very good one:<br/>
+                Thrive architect from thrivethemes. That thing is pretty powerful.
+                </p>
+            </div>
+            </div>
+
+            <div class="comments-reply-flex">
+              <img src="./images/Post/person_2.svg" alt="commentor" class="commentor-icon">
+            <div class="commentor-details-container">
+              <div class="commentor-details">
+                <p class="name">Sean Scott</p>
+                <p class="date">December 14, 2017 at 5:13 pm</p>
+              </div>
+              <p class="comment">
+                Thanks Brian! We have updated the above post. You are correct, <br/>
+                their page builder has both a free and a premium version.
+              </p>
+            </div>
+            </div>
+            
+        <div class="comments-flex">
+          <img src="./images/Post/person_3.svg" alt="commentor" class="commentor-icon">
+          <div class="commentor-details-container">
+            <div class="commentor-details">
+              <p class="name">Wiliam Hilton</p>
+              <p class="date">December 14, 2017 at 5:13 pm</p>
+              <p class="reply">Reply</p>
+            </div>
+            <p class="comment">
+              I think, you forgot to mention a very good one:<br/>
+              Thrive architect from thrivethemes. That thing is pretty powerful.
+              </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LEAVE A REPLY SECTION -->
+      <div class="reply-section">
+        <h4 class="reply-heading">Leave a Reply</h4>
+        <div class="input-container">
+          <div>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comment" class="textarea"></textarea>
+          </div>
+          <div><input type="text" name="name" id="name" placeholder="Name" class="input"></div>
+          <div><input type="email" name="email" id="email" placeholder="Email" class="input"></div>
+          <div class="terms-privacy-container">
+            <input type="checkbox" name="terms-privacy" id="terms-privacy" class="checkbox">
+            <p class="terms-privacy">I agree to the <a class="post-highlighted-text">Terms and Conditions and Privacy Policy</a></p>
+          </div>
+          <button type="submit" class="post-comment-btn">Post Comment</button>
+        </div>
+      </div>
+      </div>
+
+       <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <img src="images/footer-logo.svg" alt="footer logo" class="footer-logo">
+
+      <div>
+        <ul class="footer-icons">
+          <li><a href=""><i class="fab fa-vimeo" id="icon"></i></a></li>
+          <li><a href=""><i class="fab fa-pinterest" id="icon"></i></a></li>
+          <li><a href=""><i data-feather="instagram" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="twitter" class="footer-icon"></i></a></li>
+          <li><a href=""><i data-feather="facebook" class="footer-icon"></i></a></li>
+        </ul>
+      </div>
+
+      <p class="footer-paragraph">All Rights Reserved 2018 3layers</p>
+    </div>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
