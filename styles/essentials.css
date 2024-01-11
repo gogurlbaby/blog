@@ -1,5 +1,5 @@
 .essentials-section {
-  padding: 3rem 0 4rem;
+  padding: 4rem 0;
 }
 
 .essentials-container {
@@ -22,6 +22,12 @@
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 650px) {
+  .essentials-section {
+    padding: 4rem 3rem;
+  }
+}
+
 @media (min-width: 992px) {
   .essentials-semi-container {
     display: flex;
@@ -30,7 +36,7 @@
 
 @media (min-width: 1200px) {
   .essentials-section {
-    padding: 6rem 5rem;
+    padding: 6.5rem 10rem;
   }
 
   .essentials-flex {

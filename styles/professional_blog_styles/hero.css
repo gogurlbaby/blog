@@ -3,89 +3,121 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 10rem 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* padding: 10rem 5rem; */
 }
 
-.menu-search {
+.hero-navbar {
   display: flex;
-  justify-content: space-between;
-  gap: 8rem;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.hero-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu-search-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-icon {
+  color: var(--white-color);
+}
+
+.search-icon {
+  display: none;
 }
 
 .menu-btn {
-  color: #FFF;
+  color: var(--white-color);
+}
+
+.hero-text-container {
+  padding: 4rem;
 }
 
 
 @media (max-width: 1023px) {
-  .navbar-icons {
+  #navbar-icon,
+  #nav-icon,
+  .navbar-icon,
+  .search-icon {
     display: none;
-  }
-
-  .prof-search-icon {
-    display: none;
-  }
-
-  .navbar-container {
-    display: flex;
-    justify-content: space-between;
   }
 }
 
 @media (min-width: 1024px) {
-  .hero-section {
-    padding: 15rem;
-    justify-content: flex-start;
-    align-items: flex-start;
+  #overlay {
+    display: none !important;
   }
 
-  .navbar-container {
+  .hero-navbar {
     display: flex;
-    /* align-items: center; */
-    justify-content: space-around;
-    /* gap: 2rem; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2rem;
   }
-  
-  .navbar-icons {
+
+  .hero-icons {
     display: flex;
     align-items: center;
     gap: 0.5rem;
   }
-  
+
+  .menu-search-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
   li {
     list-style: none;
   }
+
+  .search-icon {
+    display: block;
+    color: var(--white-color);
+  }
+
+  .nav-items {
+    display: none;
+  }
   
   #nav-icon {
-    background-color: #FF5480;
-    color: #1B0042;
+    background-color: var(--button-highlighted-color);
+    color: var(--icon-hero-color);
     border-radius: 12px;
     width: 20px; 
     height: 20px;
   }
   
   #navbar-icon {
-    background-color: #FFF;
-    color: #1B0042;
+    background-color: var(--white-color);
+    color: var(--icon-hero-color);
     border-radius: 12px;
     width: 22px; 
     height: 22px;
   }
   
   .navbar-icon {
-    background-color: #FFF;
-    color: #1B0042;
+    background-color: var(--white-color);
+    color: var(--icon-hero-color);
     border-radius: 12px;
     width: 22px; 
     height: 22px;
   }
 
-  .prof-search-icon {
-    display: block;
+  .hero-text-container {
+    padding: 15rem;
   }
 
   .hero-mini-title {
