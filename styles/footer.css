@@ -20,28 +20,28 @@ li {
 }
 
 .footer-paragraph {
-  color: #9B9B9B;
+  color: var(--grey-color);
   font-size: 0.875rem;
   font-weight: 400;
 }
 
 #icon {
-  background-color: #9B9B9B;
-  color: #FFF;
+  background-color: var(--grey-color);
+  color: var(--white-color);
   border-radius: 12px;
   width: 20px; 
   height: 20px;
 }
 
 .footer-icon {
-  background-color: #9B9B9B;
-  color: #FFF;
+  background-color: var(--grey-color);
+  color: var(--white-color);
   border-radius: 12px;
   width: 22px; 
   height: 22px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   footer {
     padding: 2.5rem 0;
   }

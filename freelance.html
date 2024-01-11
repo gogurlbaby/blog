@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/essentials.css">
     <link rel="stylesheet" href="./styles/freelance_blog_styles/freelance.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
     <title>Freelance Blog</title>
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="professional.html">Professional Home</a></li>
-          <li><a href="personal.html">Personal Home</a></li>
-        </ul>
-      </nav>
       <!-- NAVBAR -->
+      <header>
+        <nav>
+         <div class="navbar">
+              <div class="navbar-flex">
+              <a href="/index.html"><img src="./images/logo.svg" alt="Logo" class=""logo></a>
+              <div class="menu-button">
+                <i data-feather="menu" onclick="showOverlay()"></i> 
+              </div>
+             </div>
+             <!-- OVERLAY FOR SMALL SCREENS -->
+                <div id="overlay" class="nav-items">
+                  <ul>
+                    <li><a href="/popular.html">Popular</a></li>
+                    <li>
+                      <a href="/new.html" id="coloured-paragraph">New</a>
+                    </li>
+                    <li><a href="/reading-lists.html">Reading list</a></li>
+                    <li><a href="/topics.html">Topics</a></li>
+                    <li>
+                      <a href="/post.html">
+                        <button type="button" class="subcribe-btn">Subscribe</button>
+                      </a></li>
+                  </ul>
+                  <div class="close_icon">
+                    <i data-feather="x" onclick="hideOverlay()"></i>
+                  </div>
+                </div> 
+           </div>
+        </nav>
+       </header>
       
       <!-- FREELANCE SECTION -->
       <div class="freelance-section">
@@ -80,10 +105,6 @@
          <img src="./images/Freelance Blog/freelance_3.svg" alt="freelance image" class="freelance-images">
          <img src="./images/Freelance Blog/freelance_4.svg" alt="freelance image" class="freelance-images">
          <img src="./images/Freelance Blog/freelance_5.svg" alt="freelance image" class="freelance-images">
-         <img src="./images/Freelance Blog/freelance_6.svg" alt="freelance image" class="freelance-images">
-         <img src="./images/Freelance Blog/freelance_7.svg" alt="freelance image" class="freelance-images">
-         <img src="./images/Freelance Blog/freelance_8.svg" alt="freelance image" class="freelance-images">
-         <img src="./images/Freelance Blog/freelance_9.svg" alt="freelance image" class="freelance-images">
         </div>
     </div>
 

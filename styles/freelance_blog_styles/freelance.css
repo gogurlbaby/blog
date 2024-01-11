@@ -16,7 +16,7 @@
 }
 
 .insta {
-  color: #111210;
+  color: var(--secondary-color);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 24px;
@@ -30,9 +30,30 @@
   margin-bottom: 2.5rem;
 }
 
-@media (min-width: 992px) {
+.subcribe-btn {
+  border-radius: 10px;
+  background-color: var(--subscribe-background-color);
+  border: 1px solid var(--subscribe-background-color);
+  color: var(--white-color);
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.375px;
+}
+
+@media (min-width: 650px) {
   .freelance-section {
-    padding: 6rem 7.5rem;
+    padding: 4rem 3rem;
+  }
+
+  .freelance-images-container {
+    padding: 0 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .freelance-section {
+    padding: 6.5rem 10rem;
   }
   
   .freelance-container {
