@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/essentials.css">
     <link rel="stylesheet" href="./styles/professional_blog_styles/hero.css">
@@ -11,32 +12,47 @@
     <link rel="stylesheet" href="./styles/business_blog_styles/reading_lists.css">
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="./js/navbar.js" defer></script>
     <title>Professional Blog</title>
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="freelance.html">Freelance Home</a></li>
-          <li><a href="personal.html">Personal Home</a></li>
-        </ul>
-      </nav>
         <!-- HERO SECTION WITH NAVBAR -->
       <div class="hero-section">
-        <!-- <nav>
-          <div class="navbar">
-            <div class="navbar-container">
-              
-              <div class="menu-search">
-                <img src="/images/Professional Blog/professional-logo.svg" alt="navbar logo" class="prof-navbar-logo">
-                <div class="menu-btn">
-                  <i data-feather="menu" onclick="showOverlay()"></i> 
-                </div>
-  
-              </div>
-            </div>
+       <nav>
+         <div class="hero-navbar">
+          <div>
+            <ul class="hero-icons">
+              <li><a href=""><i class="fab fa-vimeo" id="navbar-icon"></i></a></li>
+              <li><a href=""><i class="fab fa-pinterest" id="navbar-icon"></i></a></li>
+              <li><a href=""><i data-feather="instagram" id="nav-icon"></i></a></li>
+              <li><a href=""><i data-feather="twitter" class="navbar-icon"></i></a></li>
+              <li><a href=""><i data-feather="facebook" class="navbar-icon"></i></a></li>
+            </ul>
           </div>
-        </nav> -->
+          <img src="./images/Professional Blog/hero-logo.svg" alt="hero-logo" class="hero-logo">
+
+          <div id="overlay" class="nav-items">
+            <ul>
+              <li><a href="/popular.html">Popular</a></li>
+              <li>
+                <a href="/new.html">
+                  <button type="button" class="navbar-btn">New</button>
+                </a>
+              </li>
+              <li><a href="/reading-lists.html">Reading Lists</a></li>
+              <li><a href="/topics.html">Topics</a></li>
+              <li><a href="/post.html">Subscribe</a></li>
+            </ul>
+            <div class="close_icon">
+              <i data-feather="x" onclick="hideOverlay()"></i>
+            </div> 
+         </div>
+          <div class="menu-search-icons">
+            <i data-feather="menu" class="menu-icon" onclick="showOverlay()"></i> 
+            <i data-feather="search" class="search-icon"></i>
+          </div>
+         </div>
+       </nav>
 
         <div class="hero-text-container">
             <h4 class="background-image-title hero-title">BY   TOMAS LAURINAVICIUS   IN   DESIGN PROCESS</h4>

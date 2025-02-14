@@ -16,45 +16,38 @@
     <script src="./js/navbar.js" defer></script>
     <title>Business Blog</title>
 </head>
-<body class="business-blog">
+<body>
+   <!-- NAVBAR-->
    <header>
     <nav>
-      <ul>
-        <li><a href="professional.html">Professional Home</a></li>
-        <li><a href="freelance.html">Freelance Home</a></li>
-        <li><a href="personal.html">Personal Home</a></li>
-      </ul>
-    </nav>
-    <!-- NAVBAR-->
-    <nav>
      <div class="navbar">
-       <div class="nav-desktop-flex">
-        <div class="navbar-flex">
-          <img src="./images/logo.svg" alt="Logo" class=""logo>
+        <div class="navbar-desktop-flex">
+          <div class="navbar-flex">
+          <a href="/index.html"><img src="./images/logo.svg" alt="Logo" class=""logo></a>
           <div class="menu-button">
             <i data-feather="menu" onclick="showOverlay()"></i> 
           </div>
          </div>
          <!-- OVERLAY FOR SMALL SCREENS -->
-           <div id="overlay" class="nav-items-flex">
-            <ul>
-              <li><a href="/popular.html">Popular</a></li>
-              <li>
-                <a href="/new.html">
-                  <button type="button" class="navbar-btn">New</button>
-                </a>
-              </li>
-              <li><a href="/reading-lists.html">Reading Lists</a></li>
-              <li><a href="/topics.html">Topics</a></li>
-              <li><a href="/author.html">Subscribe</a></li>
-            </ul>
-            <div class="close_icon">
-              <i data-feather="x" onclick="hideOverlay()"></i>
-            </div> 
-          </div>
+            <div id="overlay" class="nav-items">
+              <ul>
+                <li><a href="/popular.html">Popular</a></li>
+                <li>
+                  <a href="/new.html">
+                    <button type="button" class="navbar-btn">New</button>
+                  </a>
+                </li>
+                <li><a href="/reading-lists.html">Reading Lists</a></li>
+                <li><a href="/topics.html">Topics</a></li>
+                <li><a href="/post.html">Subscribe</a></li>
+              </ul>
+              <div class="close_icon">
+                <i data-feather="x" onclick="hideOverlay()"></i>
+              </div> 
+           </div>
+        </div>
+           <i data-feather="search" class="search-icon"></i>
        </div>
-        <div><i data-feather="search" class="search-icon"></i> </div>
-      </div>
     </nav>
    </header>
 

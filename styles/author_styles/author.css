@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 .author-name {
@@ -42,7 +43,6 @@ li {
 .author-social-handles {
   display: flex;
   gap: 0.5rem;
-  align-items: center;
 }
 
 .author-images {
@@ -357,6 +357,10 @@ th {
     padding: 2rem 5rem 6rem;
     display: flex;
     gap: 1.5rem;
+  }
+
+  .author-details {
+    padding-bottom: 10rem;
   }
   
   .links-space {

@@ -3,7 +3,7 @@
 }
 
 .reading-view-all {
-  color: #FF5480;
+  color: var(--button-highlighted-color);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
@@ -22,7 +22,7 @@
 }
 
 .reading-lists-paragraph {
-  color: #111210;
+  color: var(--secondary-color);
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 24px;
@@ -36,8 +36,15 @@
   }
 }
 
+@media (min-width: 650px) {
+  .reading-lists {
+    padding: 4rem 3rem 0;
+  }
+}
+
+
 @media (min-width: 1200px) {
   .reading-lists {
-    padding: 6rem 5rem 0;
+    padding: 6.5rem 10rem 0;
   }
 }

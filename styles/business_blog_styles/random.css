@@ -18,6 +18,13 @@
 
 .random-image {
   width: 100%;
+  border-radius: 8px;
+}
+
+@media (min-width: 650px) {
+  .random-section {
+    padding: 0 3rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -38,8 +45,6 @@
 
 @media (min-width: 1200px) {
   .random-section {
-    padding: 6rem 5rem 0;
+    padding: 6.5rem 10rem 0;
   }
-  
- 
 }

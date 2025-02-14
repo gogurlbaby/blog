@@ -18,7 +18,7 @@
 }
 
 .date {
-  color: #9B9B9B;
+  color: var(--grey-color);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px; 
@@ -27,7 +27,7 @@
 }
 
 .date-description {
-  color: #111210;
+  color: var(--secondary-color);
   font-size: 1rem;
   font-weight: 600;
   line-height: 24px; 
@@ -42,11 +42,17 @@
   }
 }
 
+@media (min-width: 650px) {
+  .new-container {
+    padding: 0 3rem;
+  }
+}
+
 @media (min-width: 1200px) {
   .new-flex {
     display: flex;
     gap: 2rem;
-    padding: 6rem 5rem 0;
+    padding: 6.5rem 10rem 0;
   }
 
   .new-background-image {
